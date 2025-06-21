@@ -1,4 +1,9 @@
-Algoritmo "semnome"
+Algoritmo "SISTEMA_PEDIDO"
+// Disciplina   : AN√ÅLISE E DESENVOLVIMENTO DE SISTEMAS - FUNDAMENTOS DE PROGRAMA√á√ÉO DE COMPUTADORES
+// Professor    : PAULO LIMIRIO DA SILVA
+// Descri√ß√£o    : SISTEMA DE PEDIDOS
+// Autor(a)     : S√ÅVIO FERREIRA ROCHA
+// Data atual   : 20/06/2025
 
 Var
 
@@ -17,7 +22,7 @@ Inicio
       escreval("2- Acomapanhamento")
       escreval("3- Bebida")
       escreval("0- FINALIZAR PEDIDO")
-      escreval("Digite a opÁ„o desejada")
+      escreval("Digite a op√ß√£o desejada")
       leia(opcao)
 
       se (opcao = 0) entao
@@ -31,7 +36,7 @@ Inicio
          escreval("CAIXA DO DIA", totalGeral)
       senao
          se (opcao < 0) ou (opcao > 3) entao
-            escreval("OpÁ„o inv·lida!")
+            escreval("Op√ß√£o inv√°lida!")
          senao
 
             escolha (opcao)
@@ -41,7 +46,7 @@ Inicio
                   escreval ("2- Lanche 2  R$20,00")
                   escreval ("3- Lanche 3  R$30,00")
                   escreval ("0- Voltar ao menu principal")
-                  escreval("Digite a opÁ„o desejada")
+                  escreval("Digite a op√ß√£o desejada")
                   leia (lanche)
 
                   se (lanche = 0) entao
@@ -74,7 +79,7 @@ Inicio
                   escreval ("2- Lanche 2  R$20,00")
                   escreval ("3- Lanche 3  R$30,00")
                   escreval ("0- Voltar ao menu principal")
-                  escreval("Digite a opÁ„o desejada")
+                  escreval("Digite a op√ß√£o desejada")
                   leia (acomp)
 
                   se (acomp = 0) entao
@@ -107,7 +112,7 @@ Inicio
                   escreval ("2- Lanche 2  R$20,00")
                   escreval ("3- Lanche 3  R$30,00")
                   escreval ("0- Voltar ao menu principal")
-                  escreval("Digite a opÁ„o desejada")
+                  escreval("Digite a op√ß√£o desejada")
                   leia (bebida)
 
                   se (bebida = 0) entao
